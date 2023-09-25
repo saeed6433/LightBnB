@@ -1,4 +1,20 @@
-# LightBnB
+# LightBnB Project
+
+A simple multi-page Airbnb clone that uses a server-side Javascript to display information from queries to web pages via SQl queries.
+
+## Dependencies
+- bcrypt
+- cookie-session
+- express
+- nodemon
+- pg
+
+  ## Getting Started
+
+  Run `npm i` command to install all required dependencies.
+  Run `npm run local` command. 
+  Run http://localhost:3000/ in the browser to view the app.
+
 
 ## Project Structure
 
