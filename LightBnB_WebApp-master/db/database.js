@@ -1,6 +1,3 @@
-//const properties = require("./json/properties.json");
-//const users = require("./json/users.json");
-
 const { Pool } = require("pg");
 
 //establishing connection
@@ -163,7 +160,7 @@ const addProperty = function (property) {
     property.description,
     property.thumbnail_photo_url,
     property.cover_photo_url,
-    property.cost_per_night,
+    property.cost_per_night * 100,
     property.street,
     property.city,
     property.province,
